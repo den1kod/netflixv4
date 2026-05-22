@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyFlix</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="javascript.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">MyFlix</h1>
+    <nav class="nav">
+     <a href="#" onclick="showSection('popularno')">Popularno</a>
+     <a href="#" onclick="showSection('filmovi')">Filmovi</a>
+     <a href="#" onclick="showSection('serije')">Serije</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>A House of Dynamite</h2>
+    <p>U izolovanoj kući punoj tajni, grupa stranaca biva uvučena u smrtonosnu igru kad
+       otkriju da je mjesto zapravo tempirana bomba — bukvalno i metaforički. Kako tenzije
+       rastu, stare laži izlaze na površinu, a svako krije nešto što može sve dići u zrak.</p>
+  </section>
+
+  <section class="movies1" id="popularno">
+    <h2>Popularno</h2>
+    <div class="movie-list">
+      
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kgv8jf_8dm0?si=yEbH5M_YHy9KJL_i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p1" id="star-p1-5" class="rating-radio" value="5">
+            <label for="star-p1-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p1" id="star-p1-4" class="rating-radio" value="4" checked>
+            <label for="star-p1-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p1" id="star-p1-3" class="rating-radio" value="3">
+            <label for="star-p1-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p1" id="star-p1-2" class="rating-radio" value="2">
+            <label for="star-p1-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p1" id="star-p1-1" class="rating-radio" value="1">
+            <label for="star-p1-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.3</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yeetI2DfbaE?si=qzmhAq3bYsmQiK45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p2" id="star-p2-5" class="rating-radio" value="5" checked>
+            <label for="star-p2-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p2" id="star-p2-4" class="rating-radio" value="4">
+            <label for="star-p2-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p2" id="star-p2-3" class="rating-radio" value="3">
+            <label for="star-p2-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p2" id="star-p2-2" class="rating-radio" value="2">
+            <label for="star-p2-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p2" id="star-p2-1" class="rating-radio" value="1">
+            <label for="star-p2-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.8</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YqpIKFUrLrk?si=er8Lj2BrKQr_SG8q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p3" id="star-p3-5" class="rating-radio" value="5">
+            <label for="star-p3-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p3" id="star-p3-4" class="rating-radio" value="4" checked>
+            <label for="star-p3-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p3" id="star-p3-3" class="rating-radio" value="3">
+            <label for="star-p3-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p3" id="star-p3-2" class="rating-radio" value="2">
+            <label for="star-p3-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p3" id="star-p3-1" class="rating-radio" value="1">
+            <label for="star-p3-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.0</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VL1wuCh8IV4?si=IovTqQvzfHrOTH4L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p4" id="star-p4-5" class="rating-radio" value="5">
+            <label for="star-p4-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p4" id="star-p4-4" class="rating-radio" value="4">
+            <label for="star-p4-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p4" id="star-p4-3" class="rating-radio" value="3" checked>
+            <label for="star-p4-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p4" id="star-p4-2" class="rating-radio" value="2">
+            <label for="star-p4-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p4" id="star-p4-1" class="rating-radio" value="1">
+            <label for="star-p4-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 3.5</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y4ZBSzYUTL0?si=Lb7XvQOFiAWiHNIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p5" id="star-p5-5" class="rating-radio" value="5" checked>
+            <label for="star-p5-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p5" id="star-p5-4" class="rating-radio" value="4">
+            <label for="star-p5-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p5" id="star-p5-3" class="rating-radio" value="3">
+            <label for="star-p5-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p5" id="star-p5-2" class="rating-radio" value="2">
+            <label for="star-p5-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p5" id="star-p5-1" class="rating-radio" value="1">
+            <label for="star-p5-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.6</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_wpw2QHJNco?si=1F8WOnD7p9hFcKOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-p6" id="star-p6-5" class="rating-radio" value="5">
+            <label for="star-p6-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p6" id="star-p6-4" class="rating-radio" value="4" checked>
+            <label for="star-p6-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-p6" id="star-p6-3" class="rating-radio" value="3">
+            <label for="star-p6-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p6" id="star-p6-2" class="rating-radio" value="2">
+            <label for="star-p6-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-p6" id="star-p6-1" class="rating-radio" value="1">
+            <label for="star-p6-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.2</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="movies2" id="filmovi">
+    <h2>Filmovi</h2>
+    <div class="movie-list">
+      
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s9gSuKaKcqM?si=-HmiHlpJpuKKDDdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f1" id="star-f1-5" class="rating-radio" value="5" checked>
+            <label for="star-f1-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f1" id="star-f1-4" class="rating-radio" value="4">
+            <label for="star-f1-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f1" id="star-f1-3" class="rating-radio" value="3">
+            <label for="star-f1-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f1" id="star-f1-2" class="rating-radio" value="2">
+            <label for="star-f1-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f1" id="star-f1-1" class="rating-radio" value="1">
+            <label for="star-f1-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.9</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/feOQFKv2Lw4?si=0SV4VR5EypxBZcsv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f2" id="star-f2-5" class="rating-radio" value="5">
+            <label for="star-f2-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f2" id="star-f2-4" class="rating-radio" value="4" checked>
+            <label for="star-f2-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f2" id="star-f2-3" class="rating-radio" value="3">
+            <label for="star-f2-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f2" id="star-f2-2" class="rating-radio" value="2">
+            <label for="star-f2-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f2" id="star-f2-1" class="rating-radio" value="1">
+            <label for="star-f2-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.4</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7d_jQycdQGo?si=Fa849UReF4juOCT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f3" id="star-f3-5" class="rating-radio" value="5">
+            <label for="star-f3-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f3" id="star-f3-4" class="rating-radio" value="4" checked>
+            <label for="star-f3-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f3" id="star-f3-3" class="rating-radio" value="3">
+            <label for="star-f3-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f3" id="star-f3-2" class="rating-radio" value="2">
+            <label for="star-f3-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f3" id="star-f3-1" class="rating-radio" value="1">
+            <label for="star-f3-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.1</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DCWcK4c-F8Q?si=OThcsZD4LRdGOJhT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f4" id="star-f4-5" class="rating-radio" value="5">
+            <label for="star-f4-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f4" id="star-f4-4" class="rating-radio" value="4" checked>
+            <label for="star-f4-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f4" id="star-f4-3" class="rating-radio" value="3">
+            <label for="star-f4-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f4" id="star-f4-2" class="rating-radio" value="2">
+            <label for="star-f4-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f4" id="star-f4-1" class="rating-radio" value="1">
+            <label for="star-f4-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.5</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Du0Xp8WX_7I?si=88Z33urxmgavmpOv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f5" id="star-f5-5" class="rating-radio" value="5">
+            <label for="star-f5-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f5" id="star-f5-4" class="rating-radio" value="4">
+            <label for="star-f5-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f5" id="star-f5-3" class="rating-radio" value="3" checked>
+            <label for="star-f5-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f5" id="star-f5-2" class="rating-radio" value="2">
+            <label for="star-f5-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f5" id="star-f5-1" class="rating-radio" value="1">
+            <label for="star-f5-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 3.7</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/43R9l7EkJwE?si=Hk_JYP4IrJkgd81O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-f6" id="star-f6-5" class="rating-radio" value="5">
+            <label for="star-f6-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f6" id="star-f6-4" class="rating-radio" value="4" checked>
+            <label for="star-f6-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-f6" id="star-f6-3" class="rating-radio" value="3">
+            <label for="star-f6-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f6" id="star-f6-2" class="rating-radio" value="2">
+            <label for="star-f6-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-f6" id="star-f6-1" class="rating-radio" value="1">
+            <label for="star-f6-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.3</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="movies3" id="serije">
+    <h2>Serije</h2>
+    <div class="movie-list">
+      
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lcvUGs3xaDM?si=dkh5aSNb9KHi21Ru" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s1" id="star-s1-5" class="rating-radio" value="5" checked>
+            <label for="star-s1-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s1" id="star-s1-4" class="rating-radio" value="4">
+            <label for="star-s1-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s1" id="star-s1-3" class="rating-radio" value="3">
+            <label for="star-s1-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s1" id="star-s1-2" class="rating-radio" value="2">
+            <label for="star-s1-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s1" id="star-s1-1" class="rating-radio" value="1">
+            <label for="star-s1-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.7</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s9APLXM9Ei8?si=6OMamTbaIUfnCH4u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s2" id="star-s2-5" class="rating-radio" value="5">
+            <label for="star-s2-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s2" id="star-s2-4" class="rating-radio" value="4" checked>
+            <label for="star-s2-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s2" id="star-s2-3" class="rating-radio" value="3">
+            <label for="star-s2-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s2" id="star-s2-2" class="rating-radio" value="2">
+            <label for="star-s2-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s2" id="star-s2-1" class="rating-radio" value="1">
+            <label for="star-s2-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.4</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HN4oydykJFc?si=fvyHVfAMmME27BGG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s3" id="star-s3-5" class="rating-radio" value="5">
+            <label for="star-s3-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s3" id="star-s3-4" class="rating-radio" value="4" checked>
+            <label for="star-s3-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s3" id="star-s3-3" class="rating-radio" value="3">
+            <label for="star-s3-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s3" id="star-s3-2" class="rating-radio" value="2">
+            <label for="star-s3-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s3" id="star-s3-1" class="rating-radio" value="1">
+            <label for="star-s3-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.1</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HhesaQXLuRY?si=rehOA-jDsr0drQ1H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s4" id="star-s4-5" class="rating-radio" value="5" checked>
+            <label for="star-s4-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s4" id="star-s4-4" class="rating-radio" value="4">
+            <label for="star-s4-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s4" id="star-s4-3" class="rating-radio" value="3">
+            <label for="star-s4-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s4" id="star-s4-2" class="rating-radio" value="2">
+            <label for="star-s4-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s4" id="star-s4-1" class="rating-radio" value="1">
+            <label for="star-s4-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.6</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KPLWWIOCOOQ?si=73G-fhf0mZBZFM4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s5" id="star-s5-5" class="rating-radio" value="5">
+            <label for="star-s5-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s5" id="star-s5-4" class="rating-radio" value="4" checked>
+            <label for="star-s5-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s5" id="star-s5-3" class="rating-radio" value="3">
+            <label for="star-s5-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s5" id="star-s5-2" class="rating-radio" value="2">
+            <label for="star-s5-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s5" id="star-s5-1" class="rating-radio" value="1">
+            <label for="star-s5-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 4.2</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N9Z9JtNcCWY?si=MkjRBNIqbL3eo3K3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="container">
+          <div class="rating">
+            <input type="radio" name="movie-s6" id="star-s6-5" class="rating-radio" value="5">
+            <label for="star-s6-5"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s6" id="star-s6-4" class="rating-radio" value="4">
+            <label for="star-s6-4"><i class="fa-solid fa-star"></i></label>
+            <input type="radio" name="movie-s6" id="star-s6-3" class="rating-radio" value="3">
+            <label for="star-s6-3"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s6" id="star-s6-2" class="rating-radio" value="2">
+            <label for="star-s6-2"><i class="fa-solid fa-star"></i></label> 
+            <input type="radio" name="movie-s6" id="star-s6-1" class="rating-radio" value="1" checked>
+            <label for="star-s6-1"><i class="fa-solid fa-star"></i></label>
+          </div>
+          <span class="rating-text">- 1.0</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
